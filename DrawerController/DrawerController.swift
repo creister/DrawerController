@@ -21,7 +21,7 @@
 import UIKit
 
 extension UIViewController {
-    var evo_drawerController: DrawerController? {
+    public var evo_drawerController: DrawerController? {
         var parentViewController = self.parentViewController
         
         while parentViewController != nil {
